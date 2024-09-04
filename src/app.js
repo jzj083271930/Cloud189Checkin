@@ -240,7 +240,7 @@ async function main() {
   } finally {
     const events = recording.replay();
     const content = events.map((e) => `${e.data.join("")}`).join("  \n");
-    push("test\n天翼云盘自动签到任务", content);
+    push("*****************************", content);
     recording.erase();
   }
 })();
