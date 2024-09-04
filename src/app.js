@@ -192,9 +192,9 @@ const push = (title, desp) => {
 
 // 开始执行程序
 async function main() {
-  accounts=[{"userName":"15302721710","password":"liutao092716"},{"userName":"15361575573","password":"lT#20180516"}];
-  for (let index = 0; index < accounts.length; index += 1) {
-    const account = accounts[index];
+ var accounts2=[{"userName":"15302721710","password":"liutao092716"},{"userName":"15361575573","password":"lT#20180516"}];
+  for (let index = 0; index < accounts2.length; index += 1) {
+    const account = accounts2[index];
     const { userName, password } = account;
     if (userName && password) {
       const userNameInfo = mask(userName, 3, 7);
