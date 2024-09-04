@@ -133,8 +133,7 @@ const pushWecomBot = (title, desp) => {
   const data = {
     msgtype: "text",
     text: {
-      content: `${title}\n\n${desp}`,
-      mentioned_mobile_list: [wecomBot.telphone],
+      content: `${title}\n\n${desp}`
     },
   };
   superagent
