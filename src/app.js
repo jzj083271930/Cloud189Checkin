@@ -94,6 +94,11 @@ async function main() {
         1024 /
         1024
       ).toFixed(2)}M/${(
+        afterUserSizeInfo.cloudCapacityInfo.usedSize /
+        1024 /
+        1024 /
+        1024
+      ).toFixed(2)}G/${(
         afterUserSizeInfo.cloudCapacityInfo.totalSize /
         1024 /
         1024 /
@@ -105,6 +110,11 @@ async function main() {
         1024 /
         1024
       ).toFixed(2)}M/${(
+        afterUserSizeInfo.familyCapacityInfo.usedSize /
+        1024 /
+        1024 /
+        1024
+      ).toFixed(2)}G/${(
         afterUserSizeInfo.familyCapacityInfo.totalSize /
         1024 /
         1024 /
